@@ -1,4 +1,4 @@
-# MT2AdditionalRelicDrafts
+# MT2 Additional Relic Drafts
 
 A mod for Monster Train 2 that adds a relic draft after each battle.
 
