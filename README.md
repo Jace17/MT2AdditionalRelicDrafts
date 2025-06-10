@@ -17,4 +17,6 @@ Install via Thunderstore or manually: copy the mod contents to the 'BepInEx/plug
 This is a non-cosmetic mod that changes the game mechanics. Do not use it while playing any online mode as it may cause you to be banned.
 
 # Suggested Mods
-[Relics Reloaded](https://thunderstore.io/c/monster-train-2/p/GravitonGamer/Monster_Train_2_Relics_Reloaded/) - Adds relics from the original game, increasing diversity in relic choices
+- [Relics Reloaded](https://thunderstore.io/c/monster-train-2/p/GravitonGamer/Monster_Train_2_Relics_Reloaded/) - Adds relics from the original game, increasing diversity in relic choices
+
+If you loved this or any of my other mods, feel free to [tip me a coffee.](https://ko-fi.com/gravitongamer)
