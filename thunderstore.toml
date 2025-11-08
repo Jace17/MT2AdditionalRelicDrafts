@@ -4,9 +4,9 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "GravitonGamer"
 name = "MT2AdditionalRelicDrafts"
-versionNumber = "0.0.1"
-description = "A mod for Monster Train 2 that adds an additional relic draft after each battle."
-websiteUrl = "https://thunderstore.io"
+versionNumber = "1.0.3"
+description = "A mod for Monster Train 2 that adds a relic draft after each battle."
+websiteUrl = "https://github.com/Jace17/MT2AdditionalRelicDrafts"
 containsNsfwContent = false
 
 [package.dependencies]
