@@ -22,7 +22,20 @@ namespace MT2AdditionalRelicDrafts.Plugin
     }
 
     [HarmonyPatch(typeof(SaveManager), "SetupRun")]
-    public class IncreaseDraftOptionsForBlessingReward
+    public class IncreaseDraftOptionsForBlessingRewardSetupRun
+    {
+        public static void Postfix(SaveManager __instance)
+        {
+            GrantableRewardData relicDraftRewardData = __instance.GetAllGameData().FindRewardDataByName("BlessingDraftReward");
+            if (relicDraftRewardData != null)
+            {
+                Traverse.Create(relicDraftRewardData).Field("draftOptionsCount").SetValue(3U);
+            }
+        }
+    }
+
+    [HarmonyPatch(typeof(SaveManager), "LoadMapNodesFromFile")]
+    public class IncreaseDraftOptionsForBlessingRewardLoadRun
     {
         public static void Postfix(SaveManager __instance)
         {
